@@ -1,0 +1,29 @@
+{
+  "name": "unit-testing-with-nodejs",
+  "version": "1.0.0",
+  "description": "unit test with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeRef/UT-with-NodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "unit",
+    "test"
+  ],
+  "author": "planczero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeRef/UT-with-NodeJS/issues"
+  },
+  "homepage": "https://github.com/CodeRef/UT-with-NodeJS#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.14.0",
+    "jade": "^1.11.0"
+  }
+}
