@@ -8,8 +8,8 @@ app.set('view engine','jade');
 app.use(express.static(__dirname));
 
 var conn=mongoose.connection;
-conn.once('open',function(){
-	userModel.seedUsers();
+conn.once('open',function(){	
+userModel.seedUsers();
 	console.log('Connect to mongodb success');
 });
 
